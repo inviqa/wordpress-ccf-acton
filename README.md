@@ -33,4 +33,5 @@ Run:
 
 ## Use
 
-In WordPress administration, go to Settings > ActOn and follow the instructions within.
+* Activate the plugin in WordPress administration.
+* Go to Settings > ActOn and follow the instructions within.
