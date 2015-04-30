@@ -1,4 +1,11 @@
 {
     "name": "inviqa/wordpress-ccf-acton",
-    "description": "WordPress plugin for integration of Custom Contact Forms with ActOn"
+    "description": "WordPress plugin for integration of Custom Contact Forms with ActOn",
+    "type": "wordpress-plugin",
+    "extra": {
+        "installer-name": "ccf-acton"
+    },
+    "require": {
+        "composer/installers": "~1.0"
+    }
 }
