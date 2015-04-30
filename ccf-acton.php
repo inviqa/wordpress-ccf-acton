@@ -34,7 +34,7 @@ function acton_options() {
         <form method="post">
             <h2>Settings</h2>
             <p><label for="acton_url">ActOn Form Post URL:</label><br/>
-            <input class="regular-text" type="text" id="acton_url" name="acton_url" size="70" value="<?php echo get_option('acton_url'); ?>"/></p>
+            <input class="large-text" type="text" id="acton_url" name="acton_url" value="<?php echo get_option('acton_url'); ?>"/></p>
             <p><input class="button button-primary" type="submit" value="Update"/></p>
         </form>
     </div>
