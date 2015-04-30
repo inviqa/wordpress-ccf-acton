@@ -22,6 +22,11 @@ If your WordPress installation lives in `public` folder, add:
         }
     }
 
+Add the installed path to your `.gitignore`:
+
+    # Handled by composer
+    public/wp-content/plugins/ccf-acton
+
 Run:
 
     composer update
